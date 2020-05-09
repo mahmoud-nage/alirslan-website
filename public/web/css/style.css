@@ -1,0 +1,182 @@
+body{
+	font-family: 'Cairo', 'FontAwesome' !important;
+}
+*{
+	font-family: 'Cairo', 'FontAwesome' !important;
+}
+
+.footer-area{
+	text-align: right !important;
+}
+.single-footer-widget .usefull-links li a:before {
+	right: -10px !important;
+	left: auto !important;
+}
+
+.single-footer-widget .usefull-links {
+	padding: 0 15px !important;
+}
+
+/* // start navbar */
+.mainmenu-area .logo {
+
+    padding-top: 16px;
+    padding-bottom: 10px;
+}
+
+.mainmenu-area .logo img{
+    height: 65px;
+}
+.top-bar-area .top-right {
+	float: left !important;
+}
+
+.top-bar-area .top-right .social-links li a i {
+	font-size: 18px;
+}
+.top-contact-info {
+	text-align: right !important;
+	float: right !important;
+}
+.top-contact-info li span{
+	float: left !important;
+}
+.main-menu {
+    float: right !important;
+}
+.main-menu .navigation > li > ul {
+	right: 0px !important;
+	left: auto !important;
+	text-align: right;
+}
+.mainmenu-right-box {
+    float: left !important;
+}
+.mainmenu-right-box .outer-search-box {
+	border-right: 1px solid #efeded !important;
+	border-left: none !important;
+}
+.main-menu .navigation li {
+	float: right !important;
+}
+.main-menu .navigation > li > ul > li > a {
+	padding: 13px 48px 11px 15px !important;
+}
+.main-menu .navigation > li.dropdown > a {
+	direction: rtl;
+}
+.main-menu .navigation > li > ul > li > a:before {
+	right: 30px !important;
+	left: auto !important;
+}
+.search-box {
+	left: 15px !important;
+	right: auto !important;
+}
+.search-box .form-group input[type="search"] {
+    padding-left: 50px !important;
+	padding-right: 15px !important;
+}
+.search-box .form-group button, .search-box .form-group input[type="submit"] {
+	right: auto !important;
+	left: 0 !important;
+}
+/* // end navbar */
+/* // start aboutus */
+.sec-title{
+	margin: 90px 0 0 !important;
+	text-align: right !important;
+}
+.sec-title p {
+    color: #555 !important;
+    font-size: 16px !important;
+	line-height: 35px !important;
+}
+/* // end aboutus */
+/* // start videos */
+.single-service-item .text-holder {
+	height: 100px !important;
+	top: -10px !important;
+}
+.single-service-item .text-holder a {
+	padding: 0 !important;
+}
+
+.single-service-item .text-holder a {
+	padding: 0 !important;
+}
+.service-area .owl-controls {
+	left: 0 !important;
+	right: auto !important;
+}
+/* // end videos */
+/* // start audios */
+.choosing-area .single-item .text-holder .iocn {
+    font-size: 35px !important;
+    color: #2acb35 !important;
+}
+/* // end audios */
+/* // start articles */
+.blog-large-area ul li{
+	text-align: right !important;
+}
+.blog-large-area .single-blog-item .img-holder img{
+height: 420px !important;
+}
+.blog-single-area .single-blog-item .text-holder {
+	text-align: right !important;
+}
+.blog-large-area .single-blog-item .text-holder .meta-info {
+	text-align: right !important;
+}
+.single-blog-item .text-holder .meta-info {
+	padding-top: 10px;
+}
+@media only screen and (max-width: 767px){
+.single-blog-item {
+	min-height: 365px;
+}
+}
+/* // end articles */
+/* // start news */
+.single-testimonial-item {
+	width: 100%;
+	height: 300px !important;
+	background-color: #f5f4f3 !important;
+}
+/* // end news */
+/* // start contact */
+.consultations-area #consultations-form input[type="text"], .consultations-area #consultations-form input[type="email"], .consultations-area #consultations-form textarea {
+	text-align: right !important;
+}
+.inner-content .footer-bottom-area .footer-social-links li{
+float: right;
+}
+.inner-content .footer-bottom-area .footer-social-links li a i {
+border-color: rgb(0,0,0,0.1);
+}
+/* // end contact */
+/* // start footer */
+.footer-bottom-area .footer-social-links li a i {
+    height: 45px !important;
+    width: 45px !important;
+    font-size: 25px !important;
+    line-height: 45px !important;
+}
+hr {
+	border-top: 1px solid #555;
+}
+.single-footer-widget .title {
+	color: #bfbcbc;
+	padding: 15px 0 !important;
+}
+
+.single-footer-widget .usefull-links li{
+	margin-right: 10px;
+}
+
+.single-footer-widget .usefull-links li a {
+	font-size: 13px !important;
+}
+
+/* // end footer */

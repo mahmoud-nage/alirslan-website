@@ -1,0 +1,21 @@
+.txt-r{
+  text-align: right !important;
+
+}
+
+.top_title h2::before {
+    border-left: 0px solid #ea3a3c !important;
+   
+}
+.decortion{
+	    direction: rtl;
+}
+
+.product_details_tab_button ul li a.active::before {
+	    border-left: 0px solid !important;
+
+}
+
+.main_menu ul li ul.sub_menu {
+	right: 0 !important
+}

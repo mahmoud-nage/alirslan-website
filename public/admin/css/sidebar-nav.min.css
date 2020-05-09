@@ -1,0 +1,88 @@
+/*
+ * metismenu - v1.1.3
+ * Easy menu jQuery plugin for Twitter Bootstrap 3
+ * https://github.com/onokumus/metisMenu
+ *
+ * Made by Osman Nuri Okumus
+ * Under MIT License
+ */
+
+.arrow{float:right;line-height:1.42857}.glyphicon.arrow:before{content:"\e079"}.active>a>.glyphicon.arrow:before{content:"\e114"}.fa.arrow:before{content:"\f104"}.active>a>.fa.arrow:before{content:"\f107"}.plus-times{float:right}.fa.plus-times:before{content:"\f067"}.active>a>.fa.plus-times{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1);-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg)}.plus-minus{float:right}.fa.plus-minus:before{content:"\f067"}.active>a>.fa.plus-minus:before{content:"\f068"}
+.sidebar, .navbar-default {
+	right: 0 !important;
+    text-align: right !important;
+    text-align: right;
+}
+
+#page-wrapper {
+margin: 0 220px 0 0 !important;
+}
+
+.content-wrapper #page-wrapper {
+    margin-right: 60px !important;
+    margin-left: 0px !important;
+}
+.nav > li {
+    margin-right: 10px !important;
+}
+.nav .user-pro {
+    margin-left: 10px !important;
+    direction: rtl;
+}
+.sidebar #side-menu .user-pro .arrow{
+    transform: rotateY(180deg) !important;
+    left: 10px !important;
+}
+.sidebar .fa-fw {
+    position: absolute !important;
+    right: 5px !important;
+}
+.white-box .box-title {
+    float: right;
+}
+
+#table{
+    direction: rtl;
+    text-align: center !important;
+}
+#table th{
+    text-align: center !important;
+}
+
+table.dataTable thead .sorting::after, table.dataTable thead .sorting_asc::after, table.dataTable thead .sorting_desc::after {
+display: none;
+}
+div.dt-buttons {
+    float: right !important;
+}
+.dataTables_wrapper .dataTables_filter {
+    float: left !important;
+    text-align: right !important;
+}
+
+.dataTables_wrapper .dataTables_filter label {
+direction: rtl !important;
+}
+
+.container-fluid .row{
+    direction: rtl !important;
+}
+
+.container-fluid .row .col{
+float: right !important;
+}
+
+.container-fluid .bg-title{
+    direction: ltr !important;
+}
+
+.footer {
+    right: 220px !important;
+    left: 0 !important;
+}
+.content-wrapper .footer {
+    right: 60px !important;
+}
+.sidebar #side-menu .user-pro .nav-second-level li i{
+    margin-right: -15px !important;
+}
